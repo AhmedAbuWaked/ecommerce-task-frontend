@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Col, Row } from "antd";
+import { Col, Empty, Row } from "antd";
 
 import { Page } from "@/components";
 import { LoadingKeys } from "@/models";
@@ -28,11 +28,15 @@ const Products = () => {
     <Page isLoading={getLoading(LoadingKeys.GET_PRODUCTS)}>
       <Container>
         <Row gutter={[16, 16]} justify={"space-between"}>
-          {products?.map((product) => (
-            <Col {...ColLayout} key={product.id}>
-              <ProductCard product={product} />
-            </Col>
-          ))}
+          {products.length > 0 ? (
+            products?.map((product) => (
+              <Col {...ColLayout} key={product.id}>
+                <ProductCard product={product} />
+              </Col>
+            ))
+          ) : (
+            <Empty />
+          )}
         </Row>
       </Container>
     </Page>

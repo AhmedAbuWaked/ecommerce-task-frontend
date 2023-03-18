@@ -1,6 +1,5 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-
 import { LoadingKeys } from "@/models";
 import { handleApiCallInStore } from "./utils";
 import { IProductItem } from "@/models";
