@@ -1,0 +1,46 @@
+// small mobile Screen
+@mixin xxs {
+  @media (max-width: 424px) {
+    @content;
+  }
+}
+// mobile Screen
+@mixin xs {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+// sm Screen
+@mixin sm {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+// tablet Screen
+@mixin md {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+// laptop Screen
+@mixin lg {
+  @media (max-width: 1199px) {
+    @content;
+  }
+}
+
+// desktop Screen
+@mixin xl {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
+// large desktop Screen
+@mixin xxl {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
