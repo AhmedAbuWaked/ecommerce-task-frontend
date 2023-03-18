@@ -128,7 +128,7 @@ countries-finder
 - [@craco/craco](https://www.npmjs.com/package/@craco/craco)
 - [zustand](https://www.npmjs.com/package/@reduxjs/toolkit)
 - [antd](https://www.npmjs.com/package/antd)
-- [@ant-design/icons](https://www.npmjs.com/package/react-redux)
+- [@ant-design/icons](https://ant.design/components/icon)
 - [node-sass](https://www.npmjs.com/package/node-sass)
 - [react-dom](https://www.npmjs.com/package/react-dom)
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
