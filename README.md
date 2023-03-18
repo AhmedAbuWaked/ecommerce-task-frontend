@@ -126,7 +126,7 @@ countries-finder
 
 - [axios](https://www.npmjs.com/package/axios)
 - [@craco/craco](https://www.npmjs.com/package/@craco/craco)
-- [zustand](https://www.npmjs.com/package/@reduxjs/toolkit)
+- [zustand](https://github.com/pmndrs/zustand)
 - [antd](https://www.npmjs.com/package/antd)
 - [@ant-design/icons](https://ant.design/components/icon)
 - [node-sass](https://www.npmjs.com/package/node-sass)
